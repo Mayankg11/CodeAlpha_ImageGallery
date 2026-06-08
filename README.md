@@ -1,4 +1,4 @@
-# Nature's Gallery
+# Image Gallery
 
 Nature's Gallery is a simple and responsive image gallery website built using HTML, CSS, and JavaScript.
 
