@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Image Gallery</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <section class="heading">
+
+    <h1>Image Gallery</h1>
+
+    <p>
+      Explore the beauty of nature through forests, rivers,
+      mountains, and oceans captured in stunning moments.
+    </p>
+
+  </section>
+
+  <section class="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="forest">Forest</button>
+    <button class="filter-btn" data-filter="river">River</button>
+    <button class="filter-btn" data-filter="mountain">Mountain</button>
+    <button class="filter-btn" data-filter="ocean">Ocean</button>
+
+   </section>
+
+  <section class="gallery">
+
+    <div class="image tall forest">
+      <img src="forest1.jpg" alt="Forest Image">
+    </div>
+
+    <div class="image wide forest">
+      <img src="forest2.jpg" alt="Forest Image">
+    </div>
+
+    <div class="image river">
+      <img src="river1.jpg" alt="River Image">
+    </div>
+
+    <div class="image tall river">
+      <img src="river2.jpg" alt="River Image">
+    </div>
+
+    <div class="image wide mountain">
+      <img src="mountain1.jpg" alt="Mountain Image">
+    </div>
+
+    <div class="image mountain">
+      <img src="mountain2.jpg" alt="Mountain Image">
+    </div>
+
+    <div class="image ocean">
+      <img src="ocean1.jpg" alt="Ocean Image">
+    </div>
+
+    <div class="image wide ocean">
+      <img src="ocean2.webp" alt="Ocean Image">
+    </div>
+
+  </section>
+
+  <div class="lightbox">
+    <span class="close">&times;</span>
+    <button class="prev">&#10094;</button>
+    <img class="lightbox-img" src="" alt="Preview">
+    <button class="next">&#10095;</button>
+
+  </div>
+<footer>
+
+    <p>
+        © 2026 Image Gallery | Created by Mayank
+    </p>
+
+</footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
